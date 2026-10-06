@@ -1,14 +1,13 @@
-# Downloaded datasets and archives
+# Local datasets and generated artifacts
 data/
+**/runs/
+predictions/
+outputs/
+*.pt
+*.pth
+*.onnx
 
-# Empty placeholders kept locally until implemented
-src/dataset.py
-src/model.py
-src/predict.py
-src/train.py
-configs/sku110k.yaml
-
-# Python environments and generated files
+# Python environments and caches
 __pycache__/
 *.py[cod]
 .venv/
@@ -16,9 +15,5 @@ venv/
 .env
 .env.*
 
-# Model artifacts and experiment output
-*.pt
-*.pth
-*.onnx
-runs/
-outputs/
+# Local editor settings
+.vscode/

@@ -1,0 +1,8 @@
+path: C:/Users/lethu/Documents/Locked in/shelves_object_detection/data/SKU-110K
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: object
