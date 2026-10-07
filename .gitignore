@@ -3,6 +3,7 @@ data/
 **/runs/
 predictions/
 outputs/
+/shelves_object_detection.zip
 *.pt
 *.pth
 *.onnx

@@ -12,7 +12,7 @@ def train():
 
     model.train(
         data=str(DATA_CONFIG),
-        epochs=1,
+        epochs=10,
         imgsz=640,
         batch=2,
         project=str(RUNS_DIR),
