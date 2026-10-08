@@ -1,0 +1,4 @@
+ultralytics==8.4.173
+streamlit>=1.64,<2
+Pillow>=10
+numpy>=1.23

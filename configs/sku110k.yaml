@@ -1,8 +1,7 @@
-path: C:/Users/lethu/Documents/Locked in/shelves_object_detection/data/SKU-110K
-
-train: images/train
-val: images/val
-test: images/test
+# With no path key, Ultralytics resolves these from this YAML's directory.
+train: ../data/SKU-110K/images/train
+val: ../data/SKU-110K/images/val
+test: ../data/SKU-110K/images/test
 
 names:
   0: object

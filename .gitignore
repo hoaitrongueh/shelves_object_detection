@@ -18,3 +18,14 @@ venv/
 
 # Local editor settings
 .vscode/
+
+# Private images, generated previews, and local backups
+/test_images/
+/cleaned/
+/.local_cleanup_backup/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+.streamlit/secrets.toml
+.pytest_cache/

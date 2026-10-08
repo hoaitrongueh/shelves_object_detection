@@ -1,8 +1,11 @@
 from ultralytics import YOLO
 
+from paths import PROJECT_ROOT
+
+
 def build_model():
-    model=YOLO('yolo11n.pt')
-    return model
-if __name__=="__main__":
-    model=build_model()
-    print(model)
+    return YOLO(str(PROJECT_ROOT / "src/yolo11n.pt"))
+
+
+if __name__ == "__main__":
+    print(build_model())
